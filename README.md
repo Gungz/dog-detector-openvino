@@ -1,11 +1,6 @@
-# Convert and Optimize YOLOv8 with OpenVINO™
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/openvinotoolkit/openvino_notebooks/blob/main/notebooks/230-yolov8-optimization/230-yolov8-optimization.ipynb)
+# Convert and Optimize YOLOv8 with OpenVINO - Dog Detector™
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/29454499/212105105-f61c8aab-c1ff-40af-a33f-d0ed1fccc72e.png"/>
-</p>
-
-This tutorial explains how to convert and optimize the [YOLOv8](https://github.com/ultralytics/) PyTorch model with OpenVINO.
+This tutorial explains how to convert and optimize the [YOLOv8](https://github.com/ultralytics/) PyTorch model with OpenVINO and do Dog Detection from image
 
 
 ## Notebook Contents
@@ -18,9 +13,7 @@ The tutorial consists of the following steps:
 - Validate the original model.
 - Convert the PyTorch model to OpenVINO IR.
 - Validate the converted model.
-- Prepare and run NNCF post-training optimization pipeline.
-- Compare accuracy of the FP32 and quantized models.
-- Compare performance of the FP32 and quantized models.
+- Run the converted model to detect dog.
 
 ## Installation Instructions
 
